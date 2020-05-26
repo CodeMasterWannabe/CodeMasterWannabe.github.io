@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Rylan's Year of Programing</title>
-  </head>
-  <body>
-  <h2>JavaScript addEventListener()</h2>
-
-  <p>This example uses the addEventListener() method to attach a click event to a button.</p>
-
-  <button id="myBtn">Try it</button>
+<html>
+<body>
   
-  <p id="demo"></p>
+<h2>JavaScript addEventListener()</h2>
+
+<p>This example uses the addEventListener() method to attach a click event to a button.</p>
+
+<button id="myBtn">Try it</button>
   
+<p id="demo"></p>
+
 <script>
 document.getElementByID("myBtn").addEventListener("click", displayDate);
 
@@ -20,5 +17,6 @@ function displayDate() {
   document.getElementByID("demo").innerHTML = Date();
 }
 </script>
-  </body>
+
+</body>
 </html>
