@@ -49,6 +49,14 @@
 
 <p id="demo"></p>
 
+<script>
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
 <div class="card" style="width: 18rem;">
   <img src="Capture.JPG" class="card-img-top" alt="...">
   <div class="card-body">
@@ -75,7 +83,4 @@
   </tr>
 </table>
 </body>
-   <script>
-  document.getElementByID("demo").innerHTML = new Date();
-</script>
 </html>
